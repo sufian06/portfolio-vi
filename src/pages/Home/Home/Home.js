@@ -1,9 +1,13 @@
-import React from 'react';
+import { Container } from "@mui/material";
+import React from "react";
+import Hero from "../Hero/Hero";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <Container>
+        <Hero />
+      </Container>
     </div>
   );
 };

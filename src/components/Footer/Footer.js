@@ -1,9 +1,12 @@
-import React from 'react';
+import { Container } from "@mui/material";
+import React from "react";
 
 const Footer = () => {
   return (
     <div>
-      <h4>Footer</h4>
+      <Container>
+        <h4>Footer</h4>
+      </Container>
     </div>
   );
 };
