@@ -12,7 +12,10 @@ const Header = () => {
         }}>
           <LogoLink underline="none" to='/'>sufian</LogoLink>
           <Box>
-            <Button variant="outlined" startIcon={<DownloadRoundedIcon />}>Download CV</Button>
+            <a href="Abu_Sufian_Resume.pdf" download='Abu_Sufian_Resume.pdf'>
+            <Button variant="outlined" startIcon={<DownloadRoundedIcon />}>Download Resume</Button>
+            </a>
+            
           </Box>
         </FlexBox>
       </Container>
